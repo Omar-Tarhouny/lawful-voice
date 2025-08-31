@@ -39,7 +39,7 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
           >
             <img 
               src={theme === 'dark' ? logoDark : logoLight} 
-              alt="Legal AI Platform" 
+              alt="Balaghi Platform" 
               className="h-10 w-10"
             />
             <div className="hidden md:block">
@@ -75,7 +75,11 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
             >
               {t('nav.reportCrime')}
             </Button>
-            <Button variant="ghost" size="sm">
+            <Button 
+              variant={isActive('/track') ? 'tech' : 'ghost'} 
+              size="sm"
+              onClick={() => navigate('/track')}
+            >
               {t('nav.trackReport')}
             </Button>
           </nav>

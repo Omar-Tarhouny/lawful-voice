@@ -75,9 +75,9 @@ export const HeroSection: React.FC = () => {
                       inline-flex p-4 rounded-2xl mb-4
                       ${feature.variant === 'tech' ? 'bg-gradient-tech shadow-tech' : ''}
                       ${feature.variant === 'urgent' ? 'bg-gradient-urgent shadow-urgent' : ''}
-                      ${feature.variant === 'outline' ? 'bg-accent/10 border-2 border-accent' : ''}
+                      ${feature.variant === 'outline' ? 'bg-gradient-to-r from-primary/20 to-accent/20 border-2 border-primary/30 shadow-primary/20' : ''}
                     `}>
-                      <feature.icon className="h-8 w-8 text-white" />
+                      <feature.icon className={`h-8 w-8 ${feature.variant === 'outline' ? 'text-primary' : 'text-white'}`} />
                     </div>
                   </div>
 
@@ -119,7 +119,7 @@ export const HeroSection: React.FC = () => {
           <div className="inline-flex items-center bg-card/30 backdrop-blur-sm rounded-full px-6 py-3 border border-border/50">
             <Shield className="h-5 w-5 text-success mr-2 rtl:ml-2 rtl:mr-0" />
             <span className="text-sm text-muted-foreground">
-              🔒 End-to-end encrypted • Anonymous reporting • GDPR compliant
+              🔒 End-to-end encrypted • Anonymous reporting • Secure platform
             </span>
           </div>
         </motion.div>

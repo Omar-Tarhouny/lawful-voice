@@ -19,7 +19,7 @@ const resources = {
       'language.arabic': 'العربية',
       
       // Home Page
-      'home.title': 'AI Legal Aid & Crime Reporting Platform',
+      'home.title': 'Balaghi',
       'home.subtitle': 'Secure legal guidance and anonymous crime reporting for citizens',
       'home.legalAid.title': 'AI Legal Aid',
       'home.legalAid.description': 'Get instant legal guidance from our AI assistant trained on laws and real cases',
@@ -67,7 +67,7 @@ const resources = {
       'button.next': 'Next',
       'button.cancel': 'Cancel',
       'button.save': 'Save',
-      'footer.rights': '© 2024 AI Legal Platform. All rights reserved.',
+      'footer.rights': '© 2024 Balaghi. All rights reserved.',
     }
   },
   ar: {
@@ -86,7 +86,7 @@ const resources = {
       'language.arabic': 'العربية',
       
       // Home Page
-      'home.title': 'منصة المساعدة القانونية والإبلاغ عن الجرائم',
+      'home.title': 'بلاغي',
       'home.subtitle': 'إرشاد قانوني آمن وإبلاغ مجهول عن الجرائم للمواطنين',
       'home.legalAid.title': 'المساعدة القانونية الذكية',
       'home.legalAid.description': 'احصل على إرشاد قانوني فوري من مساعدنا الذكي المدرب على القوانين والقضايا الحقيقية',
@@ -134,7 +134,7 @@ const resources = {
       'button.next': 'التالي',
       'button.cancel': 'إلغاء',
       'button.save': 'حفظ',
-      'footer.rights': '© 2024 منصة القانونية الذكية. جميع الحقوق محفوظة.',
+      'footer.rights': '© 2024 بلاغي. جميع الحقوق محفوظة.',
     }
   }
 };
